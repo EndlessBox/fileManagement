@@ -1,0 +1,39 @@
+{
+    "Applications": [{
+            "name": "MyContract",
+            "id": 1,
+            "Absolute_path_upload_Dir": "/home/xox/test/myContract/"
+        },
+        {
+            "name": "MyProject",
+            "id": 2,
+            "Absolute_path_upload_Dir": "/home/xox/test/myProject/"
+        },
+        {
+            "name": "MyHSE",
+            "id": 3,
+            "Absolute_path_upload_Dir": "/home/xox/test/myHse/"
+        },
+        {
+            "name": "Auth",
+            "id": 4,
+            "Absolute_path_upload_Dir": "/home/xox/test/auth/"
+        },
+        {
+            "name": "Test",
+            "id": 5,
+            "Absolute_path_upload_Dir": "/home/xox/test/test/"
+        }
+    ],
+    "settings": {
+        "maxFileUpload": 8,
+        "usersApi": "http://localhost:3001/api/auth/"
+    },
+    "database_settings": {
+        "dbName": "logs",
+        "username": "root",
+        "password": "tiger",
+        "host": "localhost",
+        "dialect": "mysql"
+    }
+}
